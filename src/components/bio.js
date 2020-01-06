@@ -7,11 +7,11 @@ const Bio = styled.div`
   flex-wrap: wrap;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 4em;
-  padding: 1em 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3.5em;
+  padding: 1em 1.4em;
 `
 
 export default () => (
-    <Bio>Hi 👋 I'm Carter, a font-end deisgner located in Boston, MA.  Glad you made it, kick back, have a look around.  Oh, I'm also available for freelancing, drop me a line below.</Bio>
+    <Bio>Hi 👋, I'm a font-end developer and deisgner located in Boston, MA. I'm currently a developer at WGBH. They make some great shows like Frontline and NOVA.  I'm also available to freelance. I specialize in web and email development. Take a look around and drop me a line below.</Bio>
 )
