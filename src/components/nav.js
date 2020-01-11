@@ -5,10 +5,13 @@ import { Link } from "gatsby"
 const Nav = styled.nav`
   display: flex; 
   justify-content: space-between; 
-  padding: 2em 6em 0px 6em;
+  padding: 2em 6em 0em 6em;
   height: 80px;
+  @media screen and (max-width: 430px) {
+    padding: 1em 1em 0em 1em;
+    }
 `
-const StyledLink = styled(props => <Link {...props} />)`
+const StyledLink = styled.a`
   color: black;
   text-decoration: none;
   font-size: 2em;
@@ -34,14 +37,17 @@ const StyledLink = styled(props => <Link {...props} />)`
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+  @media screen and (max-width: 430px) {
+    font-size: 1.3em;
+    }
 `
 
 
 export default () => (
     <Nav>
-      <StyledLink to="/emails/">Codepen</StyledLink>
-      <StyledLink to="/emails/">Github</StyledLink>
-      <StyledLink to="/emails/">Work</StyledLink>
-      <StyledLink to="/emails/">Contact</StyledLink>
+      <StyledLink href="https://codepen.io/cartuhok">Codepen</StyledLink>
+      <StyledLink href="https://github.com/cartuhok">Github</StyledLink>
+      <StyledLink href="#work">Work</StyledLink>
+      <StyledLink href="#contact">Contact</StyledLink>
     </Nav>
 )

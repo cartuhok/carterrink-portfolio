@@ -7,6 +7,7 @@ const Form = styled.form`
      flex-direction: column; 
      align-items: center;
      justify-content: center;
+     padding: 0em 0em 2em 0em;
 `
 const Email = styled.input`
   margin-top: 80px;
@@ -19,6 +20,10 @@ const Email = styled.input`
     outline: none;
     box-shadow: .5px .5px 1.5px rgba(0,0,0,.2);
   }
+  @media screen and (max-width: 430px) {
+        width: 90vw;
+        padding: 1em 0.5em;
+    }
 `
 const Message = styled.textarea`
   width: 800px;
@@ -32,6 +37,10 @@ const Message = styled.textarea`
     outline: none;
     box-shadow: .5px .5px 1.5px rgba(0,0,0,.2);
   }
+  @media screen and (max-width: 430px) {
+        width: 90vw;
+        padding: 1em 0.5em;
+    }
 `
 const Button = styled.button`
     padding: 8px 48px;
@@ -45,7 +54,7 @@ const Button = styled.button`
 `
 
 export default () => (
-    <Form method="POST" action="http://formspree.io/carter.m.rink@gmail.com">
+    <Form method="POST" action="http://formspree.io/carter.m.rink@gmail.com" id="contact">
         <Email type="email" name="email" placeholder="Your email" />
         <Message name="message" placeholder="Your message" />
         <Button type="submit" value="send">Send</Button>

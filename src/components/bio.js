@@ -10,6 +10,10 @@ const Bio = styled.div`
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 3.5em;
   padding: 1em 1.4em;
+  @media screen and (max-width: 430px) {
+        font-size: 1.5em;
+        padding: 1em 0.5em;
+    }
 `
 
 export default () => (
