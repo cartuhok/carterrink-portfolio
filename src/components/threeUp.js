@@ -46,7 +46,6 @@ export default () => (
      </Card>
      <Card>
         <Title>Design</Title>
-      
      </Card>
     </ThreeUp>
 )
