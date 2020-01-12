@@ -45,7 +45,8 @@ export default () => (
         <Img src="https://i.imgur.com/CzUN5XA.png"></Img></Link>
      </Card>
      <Card>
-        <Title>Design</Title>
+     <Link style={{ textDecoration: `none` }} to="/design/"><Title>Design</Title>
+        <Img src="https://i.imgur.com/T0BmNAG.png"></Img></Link>
      </Card>
     </ThreeUp>
 )
