@@ -41,8 +41,8 @@ export default () => (
         <Img src="https://i.imgur.com/UuDgXYz.png"></Img></Link>
      </Card>
      <Card>
-        <Title>Web</Title>
-    
+     <Link style={{ textDecoration: `none` }} to="/web/"><Title>Web</Title>
+        <Img src="https://i.imgur.com/CzUN5XA.png"></Img></Link>
      </Card>
      <Card>
         <Title>Design</Title>
