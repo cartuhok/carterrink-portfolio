@@ -13,6 +13,7 @@ const Bio = styled.div`
   @media screen and (max-width: 430px) {
         font-size: 1.5em;
         padding: 1em 0.5em;
+        margin: 1em 0em;
     }
 `
 
