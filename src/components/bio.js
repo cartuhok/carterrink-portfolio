@@ -18,5 +18,5 @@ const Bio = styled.div`
 `
 
 export default () => (
-    <Bio>Hi 👋, I'm a font-end developer and designer located in Boston, MA. I'm currently a developer at WGBH. They make some great shows like Frontline and NOVA.  I'm also available to freelance. I specialize in web and email development. Take a look around and drop me a line below.</Bio>
+    <Bio>Hi 👋, I'm a font-end developer and designer located in Boston. I'm currently a developer at WGBH. They make some great shows like Frontline and NOVA.  I'm also available to freelance. I specialize in web and email development. Take a look around and drop me a line below.</Bio>
 )
