@@ -57,7 +57,7 @@ export default (props) => (
         <a style={{ textDecoration: `none`, color: `#000000` }} href="https://wgbhdigital.org/greeting/2019/"><Title>Holiday Card</Title>
       
         <Img style={{height: `500.333px`}} src="https://i.imgur.com/OHPT21o.png"></Img></a>
-        <p style={{ fontSize: `18px` }}>Developed with CreateJS for the animation events and CSS grid for the layout. Animation and layout design credit goes to the <a style={{ color: `#000000`, textDecoration: `none` }} href="https://wgbhdigital.org/greeting/2019/">WGBH</a> Digital Creative team.</p>
+        <p style={{ fontSize: `18px` }}>Developed with CreateJS for the animation events and CSS grid for the layout. Animation and layout design credit goes to the <a style={{ color: `#000000`, textDecoration: `none` }} href="https://www.wgbh.org/">WGBH</a> Digital Creative team.</p>
         <CodeLink>
     
         </CodeLink>
