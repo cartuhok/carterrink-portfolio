@@ -34,6 +34,9 @@ const Img =styled.img`
   height: auto;
   -webkit-box-shadow: 0.222rem 0.222rem 0.444rem rgba(211, 211, 211, 0.75), calc(0.222rem * -1) calc(0.222rem * -1) 0.444rem rgba(255, 255, 255, 0.75);
 box-shadow:0.222rem 0.222rem 0.444rem rgba(211, 211, 211, 0.75), calc(0.222rem * -1) calc(0.222rem * -1) 0.444rem rgba(255, 255, 255, 0.75);
+  &:hover {
+    cursor: url("https://i.imgur.com/lxTeacC.png"), pointer;
+  }
 `
 
 export default () => (
