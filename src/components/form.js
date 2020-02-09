@@ -54,7 +54,8 @@ const Button = styled.button`
 `
 
 export default () => (
-    <Form method="POST" action="http://formspree.io/carter.m.rink@gmail.com" id="contact">
+    <Form method="post" netlify-honeypot="bot-field" data-netlify="true" id="contact">
+        <input type="hidden" name="bot-field" />
         <Email type="email" name="email" placeholder="Your email" />
         <Message name="message" placeholder="Your message" />
         <Button type="submit" value="send">Send</Button>

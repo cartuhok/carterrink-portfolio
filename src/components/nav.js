@@ -48,6 +48,6 @@ export default () => (
       <StyledLink href="https://codepen.io/cartuhok">Codepen</StyledLink>
       <StyledLink href="https://github.com/cartuhok">Github</StyledLink>
       <StyledLink href="#work">Work</StyledLink>
-      <StyledLink href="#contact">Contact</StyledLink>
+      <StyledLink href="mailto:carter.m.rink@gmail.com">Contact</StyledLink>
     </Nav>
 )
