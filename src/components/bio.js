@@ -36,6 +36,6 @@ const Link = styled.a`
 export default () => (
     <div>
     <Bio>Hi <span role="img" aria-label="waving hand emoji" style={{ whiteSpace: `nowrap`, display: `contents` }}>👋</span>, I'm Carter Rink and I am a frontend developer and designer.</Bio>
-    <BioDeets> I'm currently a full-time developer at WGBH, a PBS and NPR station located in Boston. I also do freelance projects on the side. I specialize in web and email development, with an eye for design. Take a look around my website to see examples of my work, and please <Link href="mailto:carter.m.rink@gmail.com"> feel free to message</Link>&nbsp;me for more information.</BioDeets>
+    <BioDeets> I'm currently a full-time developer at Homesite Insurance. I also do freelance projects on the side. I specialize in web and email development, with an eye for design. Take a look around my website to see examples of my work, and please <Link href="mailto:carter.m.rink@gmail.com"> feel free to message</Link>&nbsp;me for more information.</BioDeets>
     </div>
 )
